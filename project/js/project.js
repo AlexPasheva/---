@@ -450,21 +450,6 @@ function init() {
     secondTop();
     firstStorey();
     lastTop();
-    //tuk se opitah da si dobavq obekt no neznajno zashto ne mi priemashe objloader za funkciq
-    //const loader = new THREE.OBJLoader();
-
-    // load a resource
-    //loader.load(
-    // resource URL
-    //    'Tree1/Tree1.obj',
-    // called when resource is loaded
-    //   function (object) {
-
-    //       scene.add(object);
-
-    //   }
-    //);
-    //scene.add(new THREE.AxesHelper(50));
 
     //Lights and shadows
     var ambientLight, hemisphereLight, shadowLight;
